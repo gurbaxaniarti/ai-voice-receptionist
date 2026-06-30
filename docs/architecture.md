@@ -29,3 +29,20 @@ This project is built using a modular AI + automation architecture:
 - Modular (each system independent)
 - Real-time processing
 - Fault-tolerant workflows
+  
+## AI Decision Layer (RAG System)
+
+The system uses a retrieval-based approach to help patients select the appropriate doctor.
+
+### How it works:
+
+1. Patient describes symptoms during the call
+2. AI agent matches symptoms with doctor specialties using a structured knowledge base
+3. Relevant doctor is suggested to the patient
+4. Appointment booking workflow is triggered for the selected doctor
+
+### Data Source:
+- Doctor directory with:
+  - Specialties
+  - Symptoms handled
+  - Age group constraints
