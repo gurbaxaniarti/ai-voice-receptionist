@@ -12,8 +12,9 @@
    - Book appointment
 5. If conflict:
    - Suggest alternative slots
-6. Store data in Google Sheets
-7. Send SMS confirmation
+6. Blocks the calendar
+7. Store data in Google Sheets
+8. Send SMS confirmation
 
 ## Edge Cases Handled
 
